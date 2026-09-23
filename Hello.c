@@ -1,6 +1,6 @@
 #include <stdio.h>
-
-int greeting(const char *name)
+// Print a greeting message for the specified user
+int greeting(const char *name) 
 {
     printf("Hello, %s!\n", name);
     return 0;
