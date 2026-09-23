@@ -12,6 +12,7 @@ printf("Goodbye, %s!\n", name);
 return 0;
 }
 
+// Print a checkin message for the specified user
 int checkin(const char *name) {
     printf("%s checked in\n", name);
     return 0;
